@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Event Agency</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./styles/main.css" rel="stylesheet">
+    <link href="./styles/about.css" rel="stylesheet">
+    <link href="./styles/services.css" rel="stylesheet">
+    <link href="./styles/contact.css" rel="stylesheet">
+    <!-- Подключение Bootstrap Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <!-- Подключение Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+<!-- Navigation -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light nav_p">
+        <div class="container media_toggle">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="assets/logo_hispaniola.svg" alt="Logo" class="img-fluid" style="height: 30px; padding-right: 10px">
+                Hispaniola Solutions
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About us</a></li>
+
+                    <!-- Dropdown Menu for Our Services -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Our Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                            <li><a class="dropdown-item" href="templates/meetings.html">Private Meetings</a></li>
+                            <li><a class="dropdown-item" href="templates/event.html">Event Management</a></li>
+                            <li><a class="dropdown-item" href="templates/hospitality.html">Hospitality Services</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+
+<div class="content-wrapper">
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="overlay">
+            <h1 class="display-2">Hispaniola Solution</h1>
+            <p class="lead display-5">Event Management with Distinction!</p>
+            <a href="#contact" class="btn btn-lg btn-primary btn-primary-custom">Get in Touch!</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="container py-5 text-center">
+        <h2 class="mb-4 display-4 pr_text_bold">Hispaniola Solutions: Event Management with Distinction!</h2>
+        <p class="mb-5 fs-4">We bring your vision to life. With extensive experience, deep expertise, and a passion for innovation, Hispaniola Solutions is dedicated to creating extraordinary events that leave a lasting impact.</p>
+        <div class="row">
+            <div class="col-md-4">
+                <a href="./templates/meetings.html">
+                    <img src="assets/private.svg" alt="Icon for Private meetings" class="img-fluid" style="width: 100px; height: 100px">
+                </a>
+                <h5 class="fs-4 mt-3">Private meetings</h5>
+            </div>
+            <div class="col-md-4">
+                <a href="./templates/event.html">
+                    <img src="assets/party.svg" alt="Icon for Event Management" class="img-fluid" style="width: 100px; height: 100px">
+                </a>
+                <h5 class="fs-4 mt-3">Event Management</h5>
+            </div>
+            <div class="col-md-4">
+                <a href="./templates/hospitality.html">
+                    <img src="assets/hospitality.svg" alt="Icon for Hospitality services" class="img-fluid" style="width: 100px; height: 100px">
+                </a>
+                <h5 class="fs-4 mt-3">Hospitality services</h5>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="additional-sectionbg" id="about">
+        <section class="py-5 container">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <h2 class="display-4 txt_c pr_text_bold">Hispaniola Solution Event Management: Your Partner in Event Excellence</h2>
+                        <p class="lead fs-4">At Hispaniola Solution Event Management, we are passionate about creating unforgettable experiences. With years of industry expertise, we offer a comprehensive range of services to cater to your unique event requirements.</p>
+                        <h3 class="h3 mt-4 pr_text_bold">Why Choose Us?</h3>
+                        <ul class="list-unstyled">
+                            <li class="fs-5">
+                                <i class="bi bi-puzzle pr_text mr-2"></i><strong>Customized Solutions:</strong> We tailor our services to your specific needs and preferences.
+                            </li>
+                            <li class="fs-5">
+                                <i class="bi bi-person-check pr_text mr-2"></i><strong>Expert Team:</strong> Our experienced professionals are dedicated to delivering excellence.
+                            </li>
+                            <li class="fs-5">
+                                <i class="bi bi-gear pr_text mr-2"></i><strong>Attention to Detail:</strong> We pay meticulous attention to every detail, ensuring a seamless event.
+                            </li>
+                            <li class="fs-5">
+                                <i class="bi bi-hand-thumbs-up pr_text mr-2"></i><strong>Client Satisfaction:</strong> Our commitment to client satisfaction is unwavering.
+                            </li>
+                        </ul>
+                        <p class="fs-5">Let us partner with you to make your next event a resounding success.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="assets/main.png" alt="Event Management" class="img-fluid rounded shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+
+
+    <section id="contact">
+        <div class="container">
+            <div class="header display-6 pr_text_bold">Partner Up!</div>
+            <div class="subheader fs-4">We are happy to help you with your requests, please feel free to contact us.</div>
+        </div>
+        <div class="container form-section mb-4">
+            <!-- Google Map Embed -->
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2413.223137509867!2d5.188004316155927!3d51.58210111636413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6dff759b4f6d5%3A0xa5f4c04f6e77b4e7!2sAlmystraat%2014%2C%205061%20PA%20Oisterwijk%2C%20Netherlands!5e0!3m2!1sen!2s!4v1636041111157!5m2!1sen!2s"
+                        width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <div class="contact-info fs-6">
+                    <p><strong>THE EVENT AGENCY</strong></p>
+                    <p>Leerfabriek KVL<br>Almystraat 14<br>5061 PA Oisterwijk<br>The Netherlands</p>
+                    <p><strong>CALL US</strong><br>+31 (0)6 4190 4329</p>
+                    <p><strong>MAIL</strong><br>naomi@eventagency.nl</p>
+                </div>
+            </div>
+            <!-- Contact Form -->
+            <div class="form-container">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name *</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail *</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Description *</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Your message" required></textarea>
+                    </div>
+                    <div class="form-group form-check txt_mg">
+                        <input type="checkbox" class="form-check-input" id="dataAgreement" required>
+                        <label class="form-check-label" for="dataAgreement">By using this form you agree with the storage and handling of your data by this website.</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-primary-custom btn_mg">Send message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted mt-auto">
+        <section class="d-flex justify-content-center border-bottom">
+            <div>
+                <a href="" class="me-4 text-reset"><i class="fab fa-facebook-f"></i></a>
+                <a href="" class="me-4 text-reset"><i class="fab fa-twitter"></i></a>
+                <a href="" class="me-4 text-reset"><i class="fab fa-google"></i></a>
+                <a href="" class="me-4 text-reset"><i class="fab fa-instagram"></i></a>
+                <a href="" class="me-4 text-reset"><i class="fab fa-linkedin"></i></a>
+                <a href="" class="me-4 text-reset"><i class="fab fa-github"></i></a>
+            </div>
+        </section>
+
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4"><img src="assets/logo_hispaniola.svg" style="width: 20px"> Hispaniola Solutions</h6>
+                        <p>At Hispaniola Solutions, we specialize in creating unforgettable events that leave lasting impressions. From private meetings to large-scale events, we provide tailored solutions that exceed expectations.</p>   
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Links</h6>
+                        <p><a href="#!" class="text-reset">Home</a></p>
+                        <p><a href="#about" class="text-reset">About us</a></p>
+                        <div class="dropdown">
+                            <p class="dropdown-toggle" id="footerServicesDropdown" style="text-decoration: underline;" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Our Services
+                            </p>
+                            <ul class="dropdown-menu animate__dropdown" aria-labelledby="footerServicesDropdown">
+                                <li><a href="./templates/meetings.html" class="dropdown-item">Private Meetings</a></li>
+                                <li><a href="./templates/event.html" class="dropdown-item">Event Management</a></li>
+                                <li><a href="./templates/hospitality.html" class="dropdown-item">Hospitality Services</a></li>
+                            </ul>
+                        </div>
+                        <p><a href="#contact" class="text-reset">Contact</a></p>
+                    </div>
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home"></i> New York, NY 10012, US</p>
+                        <p><i class="fas fa-envelope"></i> info@example.com</p>
+                        <p><i class="fas fa-phone"></i> +01 234 567 88</p>
+                        <p><i class="fas fa-print"></i> +01 234 567 89</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</div>
+</body>
+</html>

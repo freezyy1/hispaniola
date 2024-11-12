@@ -1,0 +1,74 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.nav_p{
+    padding: 2rem 0 2rem 0;
+}
+
+.quote{
+    background: url('../assets/cat.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.quote .overlayy{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px 0;
+}
+
+.hero-section{
+    background: url('../assets/img.png') center center no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.hero-section .overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 200px 0;
+}
+.service-icon {
+    font-size: 3rem;
+    color: #592e9a;
+}
+.btn-primary-custom {
+    background: linear-gradient(90deg, #32bda9, #0d2c77);
+    border: none;
+    transition: background 0.3s ease;
+    background-size: 150%;
+}
+.btn-primary-custom:hover {
+    background-position: 40%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.content-wrapper {
+    flex-grow: 1;
+}
+
+.pr_text{
+    color: #32bda9;
+}
+
+.pr_text_bold{
+    color: #32bda9;
+    font-weight: bold;
+}
+
+.pr_back{
+    background-color: #32bda9;
+}
+
+@media (max-width: 600px) {
+    .media_toggle{
+        justify-content: center!important;
+    }
+}
+

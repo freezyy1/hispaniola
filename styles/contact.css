@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.header {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+
+}
+.subheader {
+    text-align: center;
+    color: #555;
+    margin-bottom: 40px;
+}
+.form-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.form-section .map,
+.form-section .form-container {
+    flex: 1;
+    margin: 10px;
+}
+.form-container {
+    max-width: 500px;
+}
+.contact-info {
+    text-align: center;
+    margin-top: 20px;
+}
+.contact-info p {
+    margin: 0;
+}
+
+.bg-nav{
+    background-color: #f5f5f5;
+}
+
+.nav-section {
+    background-color: #f5f5f5;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #b5b5b5;
+    text-transform: uppercase;
+    margin: 0;
+}
+.breadcrumb {
+    font-size: 0.9rem;
+    color: #b5b5b5;
+    margin: 0;
+}
+.breadcrumb a {
+    color: #b5b5b5;
+    text-decoration: none;
+}
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+.breadcrumb .separator {
+    margin: 0 5px;
+}
+
+
+@media (max-width: 600px) {
+    .form-section{
+        align-items: stretch;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .map{
+        flex:auto;
+    }
+    .btn_mg{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        padding: 14px;
+    }
+    .txt_mg{
+        margin-bottom: 5px;
+    }
+}
+
